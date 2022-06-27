@@ -1,0 +1,96 @@
+.lmj-plant-item-cover {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.lmj-plant-item {
+	margin: 10px;
+	display: row;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+
+	display: block;
+	text-orientation: none;
+	transition: 1s all ease;
+	overflow: hidden;
+	font-family: "montserrat";
+}
+
+.lmj-plant-item::before {
+	background-color: #33339a;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.5;
+	transition: all 0.6s ease;
+}
+
+.lmj-plant-item::before {
+	width: 100%;
+	height: 0;
+}
+
+.lmj-plant-item:hover::before {
+	height: 100%;
+	border-radius: 20px;
+}
+
+.lmj-plant-item:hover{
+	object-fit: cover;
+}
+
+.lmj-plant-item-price {
+	position: absolute;
+	border-radius: 20px 20px 20px 0;
+	background-color: #33339a;
+	color: white;
+	padding: 15px;
+	right: 0;
+	top: 0;
+	font-weight: 500;
+}
+
+.Info {
+	padding-left: 10px;
+	background-color: #33339a;
+	height: 30px;
+	align-items: center;
+	line-height: 28px;
+	color: white;
+	border-radius: 0px 0px 20px 20px;
+}
+.Info a:hover{
+	font-size: 12px;
+	transition: all 0.6s ease;
+	color: white;
+	background-color: #33339a;
+	border: 1% solid white;
+	height: 99%;
+}
+
+.Info button {
+	display: none;
+}
+
+.Info a {
+	position: relative;
+	float: right;
+	background-color: white;
+	width: 40%;
+	text-align: center;
+	height: 100%;
+	border-radius: 0px 0px 20px 0px;
+	list-style: none;
+	text-decoration: none;
+	font-size: 11px;
+	border-left: 1px solid white;
+	transition: all 0.6s ease;
+}
