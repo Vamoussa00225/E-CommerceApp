@@ -1,12 +1,14 @@
 .lmj-banner {
 	color: black;
 	text-align: right;
-	padding: 32px;
-	border-bottom: solid 3px black;
+	padding: 5px;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
 	align-items: center;
+	background-color: orange;
+	opacity: 0.8;
+	box-shadow: 2px 2px 2px ;
 }
 
 .lmj-title {

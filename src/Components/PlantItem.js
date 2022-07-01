@@ -1,16 +1,9 @@
 import "../Styles/PlantItem.css"
-// import CareScale from "./CareScale"
-
-function handleClick(e) {
-    // console.log(`Vous voulez acheter 1 ${plantName} ? Tres bon choix`);
-    console.log(e);
-}
-
-
 
 function PlantItem({ name, cover, price, light, water, id, cart, updateCart }) {
 
-    function addToCart(name, price) {
+    function addToCart(e, name, price) {
+        e.preventDefault()
         const currentPlantSaved = cart?.find((plant) => plant.name === name)
         if (currentPlantSaved) {
             const cartFilteredCurrentPlant = cart.filter(
@@ -26,12 +19,12 @@ function PlantItem({ name, cover, price, light, water, id, cart, updateCart }) {
     }
 
     return (
-        <div key={id} className='lmj-plant-item' onClick={(e) => handleClick(e)}>
+        <div key={id} className='lmj-plant-item'>
             <span className='lmj-plant-item-price'>{price}€</span>
             <img className='lmj-plant-item-cover' src={cover} alt={`${name} cover`} />
+            <div className="name">{name}</div>
             <div className="Info">
-                {name}
-                <a href="#"><button onClick={() => addToCart(name, price)}></button>Ajouter au panier</a>
+                <a href="google.com" onClick={(e) => addToCart(e, name, price)}><button>Ajouter au panier</button></a>
             </div>
         </div>
     )

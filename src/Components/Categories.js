@@ -1,14 +1,21 @@
 import { ElectroList } from "../datas/ElectroList";
+import "../Styles/Categories.css"
 
-function handleSelect(e, option, setOption){
+function handleSelect(e, option, setOption) {
     let newList = ElectroList;
     if (e.target.value !== "" && e.target.value !== "Trier par une categorie")
         setOption(newList.filter((newList) => newList.category === e.target.value))
     else
-        setOption( ElectroList);
+        setOption(ElectroList);
 }
 
-function Categories({categories, option, setOption}) {
+function Categories({ option, setOption }) {
+    const categories = ElectroList.reduce(
+        (acc, plant) =>
+            acc.includes(plant.category) ? acc : acc.concat(plant.category),
+        []
+    )
+
     return (
         <div className='lmj-categories'>
             <select onChange={(e) => handleSelect(e, option, setOption)} className='lmj-categories-select'>

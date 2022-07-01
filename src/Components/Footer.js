@@ -9,7 +9,7 @@ function Footer() {
 	const [inputValue, setInputValue] = useState('')
 
 	return (
-		<footer className='lmj-footer'>
+		<footer className='lmj-footer fixed-bottom'>
 			<div className='lmj-footer-elem'>
 				Pour les passionné·e·s de plantes 🌿🌱🌵
 			</div>

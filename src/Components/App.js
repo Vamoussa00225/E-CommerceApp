@@ -1,10 +1,11 @@
 import Banner from "./Banner.js"
-// import Cart from "./Cart.js"
+import Cart from "./Cart.js"
 import ShoppingList from "./ShoppingList.js";
 import Footer from "./Footer.js";
 import Logo from "../Assets/Electro/Logo.png"
 import { useEffect, useState } from "react";
 import { ElectroList } from "../datas/ElectroList.js";
+import Categories from "./Categories.js";
 
 function App() {
   const savedCart = localStorage.getItem('cart');
@@ -16,15 +17,17 @@ function App() {
   }, [cart])
 
   return (
-    <div>
+    <div className="main">
       <Banner>
-        <img src={Logo}  className="lmj-logo" alt="La maison jungle" />
+        <img src={Logo} className="lmj-logo" alt="La maison jungle" />
       </Banner>
       <div className='lmj-layout-inner'>
+        <div className="header">
+          <Cart cart={cart} updateCart={updateCart} />
+          <Categories option={option} setOption={setOption} />
+        </div>
         <ShoppingList cart={cart} updateCart={updateCart} option={option} setOption={setOption} />
-        {/* <Cart cart={cart} updateCart={updateCart} /> */}
       </div>
-      <Footer />
     </div>
   );
 }

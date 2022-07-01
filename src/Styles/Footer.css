@@ -1,16 +1,16 @@
 .lmj-footer {
-	color: black;
+	color: white;
 	padding: 32px;
+	height: 100px;
 	border-top: solid 3px black;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
 	font-weight: 500;
-	background-color: #84817a;
+	background-color: orange;
 	margin-bottom: 0px;
-}
-
-.lmj-footer-elem {
-	margin-bottom: 10px;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }

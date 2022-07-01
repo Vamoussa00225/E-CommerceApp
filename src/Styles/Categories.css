@@ -1,0 +1,26 @@
+button, select{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px 10px 5px 10px;
+    height: 40px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    width: 100px;
+    opacity: 0.8;
+    transition: background 0.5s;
+}
+
+select {
+    width: 200px;
+}
+
+button:hover, select:hover{
+    background-color: orange;
+}
