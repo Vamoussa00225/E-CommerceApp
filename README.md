@@ -14,11 +14,11 @@ Mini site E-commerce 100% front-end pouvant permettre a tout type de PME de prop
         Possiblites de s'inscrire par mail pour recevoir des mails
 
 # LANGAGES ET FONCTIONNALITE
-#       HTML
-#       CSS
-#       JAVASCRIPT
-#       REACT JS
-#       REACT-ICONS
-#       JSX
+    HTML
+    CSS
+    JAVASCRIPT
+    REACT JS
+    REACT-ICONS
+    JSX
 
-# INSPIRER DU PROJET FAIT DANS LE COUR SUR REACTJS D'OPENCLASSROOM MAIS AVEC BEAUCOUP DE DIFFERENCES
+# Inspirer du projet fait dans le cours sur ReactJS D'OpenClassroom mais avec beaucoup de differences
