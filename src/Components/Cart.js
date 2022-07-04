@@ -15,14 +15,18 @@ function Cart({ cart, updateCart }) {
 
 	return (
 		<div className="dd">
-			<div className="dd-a"><span><FaShoppingCart/></span></div>
+			<div className="dd-a"><span><FaShoppingCart/>{
+				// cart?.map(item => item.amount)?.reduce((prev, curr) => prev + curr)
+				cart.length? cart.reduce((a,cart) => a + (cart.amount || 0), 0) : ""
+			}</span></div>
 			<input type="checkbox" />
 			<div className='dd-c'>
 				{cart.length > 0 ? (
 					<div>
 						<h2>Panier</h2>
 						<ul>
-							{cart.map(({ name, price, amount }, index) => (
+							{
+							cart.map(({ name, price, amount }, index) => (
 								<li key={`${name}-${index}`} value={index}>
 									{name} {price}€ x {amount}  <button className="trash" onClick={() => handleDelete({name})}><FaTrashAlt /></button>
 								</li>

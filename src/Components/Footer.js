@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-// import '../Styles/Footer.css'
+import '../Styles/Footer.css'
 
 // function handleBlur(value, setInputValue) {
 // 	if (!value.includes("@"))

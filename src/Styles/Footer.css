@@ -7,10 +7,15 @@
 	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	font-weight: 500;
 	background-color: orange;
 	margin-bottom: 0px;
 	right: 0;
 	left: 0;
 	bottom: 0;
+}
+
+.lmj-footer-elem{
+	margin-bottom: 1rem;
 }
