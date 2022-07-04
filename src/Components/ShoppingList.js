@@ -1,5 +1,4 @@
 import "../Styles/ShoppingList.css"
-
 import PlantItem from "./PlantItem.js"
 
 function ShoppingList({ cart, updateCart, option, setOption }) {

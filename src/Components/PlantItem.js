@@ -1,6 +1,6 @@
 import "../Styles/PlantItem.css"
 
-function PlantItem({ name, cover, price, light, water, id, cart, updateCart }) {
+function PlantItem({ name, cover, price, id, cart, updateCart }) {
 
     function addToCart(e, name, price) {
         e.preventDefault()

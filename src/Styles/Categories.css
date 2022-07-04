@@ -1,3 +1,7 @@
+.lmj-categories{
+    width: 100%;
+}
+
 button, select{
     background-color: white;
     border-radius: 10px;
@@ -20,7 +24,40 @@ button, select{
 select {
     width: 200px;
 }
+select:focus{
+    outline: none;
+}
 
 button:hover, select:hover{
     background-color: orange;
+}
+
+input {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px 10px 5px 10px;
+    height: 28px;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    opacity: 0.8;
+    transition: width 1s;
+    margin: auto;
+}
+
+input:focus {
+    width: 500px;
+    outline: none;
+}
+
+.search_div {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
 }
