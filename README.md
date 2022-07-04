@@ -11,14 +11,12 @@ Mini site E-commerce 100% front-end pouvant permettre a tout type de PME de prop
 # AUTRES
         Trier par marque pour trouver plus rapidement l'article voulu
         Possibilites de faire directement une recherche de l'article a partir du nom
-        Possiblites de s'inscrire par mail pour recevoir des mails
+        Possiblites de s'inscrire par mail pour recevoir des annonces de nouveaux produits
 
-# LANGAGES ET FONCTIONNALITE
+# LANGAGES ET FONCTIONNALITEES
     HTML
     CSS
     JAVASCRIPT
     REACT JS
     REACT-ICONS
     JSX
-
-# Inspirer du projet fait dans le cours sur ReactJS D'OpenClassroom mais avec beaucoup de differences
