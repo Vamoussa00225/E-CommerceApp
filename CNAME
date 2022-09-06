@@ -1,1 +1,1 @@
-ecommerapp.com
+$ dig ecommerapp.com +nostats +nocomments +nocmd
