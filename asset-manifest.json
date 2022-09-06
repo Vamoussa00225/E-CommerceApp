@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/E-CommerceApp/static/css/main.65e8d00d.css",
+    "main.js": "/E-CommerceApp/static/js/main.f95c9646.js",
+    "static/media/Camon17.png": "/E-CommerceApp/static/media/Camon17.4c10060ca4bde0f97ca4.png",
+    "static/media/iphoneX.jpeg": "/E-CommerceApp/static/media/iphoneX.c38c3e05c4efdaa72950.jpeg",
+    "static/media/Pixel6.jpg": "/E-CommerceApp/static/media/Pixel6.8db6e0a7a9f8061ded80.jpg",
+    "static/media/Huaweip2pro.jpg": "/E-CommerceApp/static/media/Huaweip2pro.d4464ab8062171dff4df.jpg",
+    "static/media/Pixel7.webp": "/E-CommerceApp/static/media/Pixel7.3502fef50d307686b9d9.webp",
+    "static/media/Iphone6.jpg": "/E-CommerceApp/static/media/Iphone6.6d97c774b46c1ae05e54.jpg",
+    "static/media/Camon15.jpeg": "/E-CommerceApp/static/media/Camon15.60f1fcf2c62c53c8f50d.jpeg",
+    "static/media/Pixel5.jpeg": "/E-CommerceApp/static/media/Pixel5.1f4a2e27fb49ec8e4d02.jpeg",
+    "static/media/P30pro.jpeg": "/E-CommerceApp/static/media/P30pro.97eaa1e6322ad5f885bc.jpeg",
+    "static/media/Canon.jpg": "/E-CommerceApp/static/media/Canon.b13e243b11f693e5dc6e.jpg",
+    "static/media/P40PRO.jpg": "/E-CommerceApp/static/media/P40PRO.e3412171593489021072.jpg",
+    "static/media/Pixel4.jpeg": "/E-CommerceApp/static/media/Pixel4.a501c3fb09783ea28a52.jpeg",
+    "static/media/Mi11.jpeg": "/E-CommerceApp/static/media/Mi11.daec69f3d434878147d0.jpeg",
+    "static/media/Spark6.jpeg": "/E-CommerceApp/static/media/Spark6.fdc6ccef8076e007b775.jpeg",
+    "static/media/nova7i.jpg": "/E-CommerceApp/static/media/nova7i.18c3ed4aa44fd19d8f50.jpg",
+    "static/media/Logo.png": "/E-CommerceApp/static/media/Logo.f44647c89e6e77fe5922.png",
+    "static/media/Spark7.webp": "/E-CommerceApp/static/media/Spark7.5757cb1c5c8ccb69d99d.webp",
+    "static/media/Mi12.jpeg": "/E-CommerceApp/static/media/Mi12.03c5e3cc51f460a7a614.jpeg",
+    "static/media/huawei-y7.webp": "/E-CommerceApp/static/media/huawei-y7.8b566129c414e085e990.webp",
+    "static/media/Iphone11.jpg": "/E-CommerceApp/static/media/Iphone11.908296323c527802af97.jpg",
+    "static/media/HuaweiP50.webp": "/E-CommerceApp/static/media/HuaweiP50.ae77dd5d9632d1a905ca.webp",
+    "static/media/Camon18.jpeg": "/E-CommerceApp/static/media/Camon18.fd86ccda167b093ea7b5.jpeg",
+    "static/media/Spark8.webp": "/E-CommerceApp/static/media/Spark8.5b558d955c05709809e2.webp",
+    "static/media/galaxya51.jpeg": "/E-CommerceApp/static/media/galaxya51.475264947cbf4b2db73d.jpeg",
+    "static/media/Pixel8.jpeg": "/E-CommerceApp/static/media/Pixel8.9d8a1bab4b7cabc8794d.jpeg",
+    "static/media/iPhone14.jpg": "/E-CommerceApp/static/media/iPhone14.00b47ef14525597b8466.jpg",
+    "static/media/galaxy-z-flip.jpg": "/E-CommerceApp/static/media/galaxy-z-flip.5a38e7b4060a04c8836b.jpg",
+    "static/media/MiNote8.jpg": "/E-CommerceApp/static/media/MiNote8.bf5c49aff5250efea803.jpg",
+    "static/media/Pixel3.webp": "/E-CommerceApp/static/media/Pixel3.8ac8b53d478063194f6f.webp",
+    "index.html": "/E-CommerceApp/index.html",
+    "main.65e8d00d.css.map": "/E-CommerceApp/static/css/main.65e8d00d.css.map",
+    "main.f95c9646.js.map": "/E-CommerceApp/static/js/main.f95c9646.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65e8d00d.css",
+    "static/js/main.f95c9646.js"
+  ]
+}
