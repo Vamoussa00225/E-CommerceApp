@@ -1,29 +1,36 @@
-# SITE WEB DE VENTE D'ARTICLES
+# E-COMMERCEAPP
 
-Mini site E-commerce 100% front-end pouvant permettre a tout type de PME de proposer le produits en ligne, sans base de donnees.
+  E-CommerceApp est un site de vente en ligne développé par [votre nom]. Le site permet aux utilisateurs de parcourir les produits disponibles, de les ajouter à leur panier, et de procéder à l'achat en ligne.
 
 # FONCTIONNALITES ET LIBRAIRIES
-        Récupération des données : Fichier JSON Exécutable.
-        Utilisation de Local Storage pour stocker et supprimer les articles dans le Panier
-        Utilisation de REACT-ICONS
+  Affichage des produits disponibles
+  Ajout de produits au panier
+  Suppression de produits du panier
+  Processus de commande
+  Trier par marque pour trouver plus rapidement l'article voulu
+  Possibilites de faire directement une recherche de l'article a partir du nom
+  Possiblites de s'inscrire par mail pour recevoir des annonces de nouveaux produits
+  Récupération des données de la base : Fichier JSON Exécutable.
+  Utilisation de Local Storage pour stocker et supprimer les articles dans le Panier
+  Utilisation de REACT-ICONS
         
-# PANIER
-        Voir la listes des articles 
-        Ajouter et Supprimer des elements
-        Vider le panier
-        
-# AUTRES
-        Trier par marque pour trouver plus rapidement l'article voulu
-        Possibilites de faire directement une recherche de l'article a partir du nom
-        Possiblites de s'inscrire par mail pour recevoir des annonces de nouveaux produits
+### Installation
 
-# LANGAGES ET FRAMEWORKS
-    HTML
-    CSS
-    JAVASCRIPT
-    REACT JS
-    JSX
+  Le site est disponible en ligne à l'adresse https://vamoussa00225.github.io/E-CommerceApp/ et ne nécessite pas d'installation particulière.
 
-# LIEN VERS LE SITE
+### LANGAGES ET FRAMEWORKS
+  HTML
+  CSS
+  JAVASCRIPT
+  REACT JS
+  JSX
 
-Vous pouvez visiter le site en cliquant sur le lien : https://vamoussa00225.github.io/E-CommerceApp/
+### Utilisation
+
+  L'utilisation du site est simple : les utilisateurs peuvent naviguer sur le site pour trouver des produits, les ajouter à leur panier, et procéder à l'achat en ligne   en suivant les étapes indiquées.
+
+  Le site est également conçu pour permettre aux utilisateurs de créer un compte et de se connecter, afin de faciliter le processus de commande et de suivre             l'historique des achats. [Code non Ajouté]
+
+### Auteurs
+
+Ce site a été développé par [Vamoussa00225] dans le cadre d'un projet personnel.
