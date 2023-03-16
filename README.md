@@ -2,7 +2,7 @@
 
   E-CommerceApp est un site de vente en ligne développé par [votre nom]. Le site permet aux utilisateurs de parcourir les produits disponibles, de les ajouter à leur panier, et de procéder à l'achat en ligne.
 
-# FONCTIONNALITES ET LIBRAIRIES
+### FONCTIONNALITES ET LIBRAIRIES
     Affichage des produits disponibles
     Ajout de produits au panier
     Suppression de produits du panier
