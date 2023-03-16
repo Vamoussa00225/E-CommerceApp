@@ -20,3 +20,7 @@ Mini site E-commerce 100% front-end pouvant permettre a tout type de PME de prop
     REACT JS
     REACT-ICONS
     JSX
+
+# LIEN VERS LE SITE
+
+Vous pouvez visiter le site en cliquant sur le lien : https://vamoussa00225.github.io/E-CommerceApp/
