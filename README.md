@@ -3,27 +3,27 @@
   E-CommerceApp est un site de vente en ligne développé par [votre nom]. Le site permet aux utilisateurs de parcourir les produits disponibles, de les ajouter à leur panier, et de procéder à l'achat en ligne.
 
 # FONCTIONNALITES ET LIBRAIRIES
-  Affichage des produits disponibles
-  Ajout de produits au panier
-  Suppression de produits du panier
-  Processus de commande
-  Trier par marque pour trouver plus rapidement l'article voulu
-  Possibilites de faire directement une recherche de l'article a partir du nom
-  Possiblites de s'inscrire par mail pour recevoir des annonces de nouveaux produits
-  Récupération des données de la base : Fichier JSON Exécutable.
-  Utilisation de Local Storage pour stocker et supprimer les articles dans le Panier
-  Utilisation de REACT-ICONS
+    Affichage des produits disponibles
+    Ajout de produits au panier
+    Suppression de produits du panier
+    Processus de commande
+    Trier par marque pour trouver plus rapidement l'article voulu
+    Possibilité de faire directement une recherche de l'article a partir du nom
+    Possibilité de s'inscrire par mail pour recevoir des annonces de nouveaux produits
+    Récupération des données de la base : Fichier JSON Exécutable.
+    Utilisation de Local Storage pour stocker et supprimer les articles dans le Panier
+    Utilisation de REACT-ICONS
         
 ### Installation
 
   Le site est disponible en ligne à l'adresse https://vamoussa00225.github.io/E-CommerceApp/ et ne nécessite pas d'installation particulière.
 
 ### LANGAGES ET FRAMEWORKS
-  HTML
-  CSS
-  JAVASCRIPT
-  REACT JS
-  JSX
+    HTML
+    CSS
+    JAVASCRIPT
+    REACT JS
+    JSX
 
 ### Utilisation
 
